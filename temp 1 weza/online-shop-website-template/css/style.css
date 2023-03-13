@@ -1593,36 +1593,36 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #fff3c6;
+  background-color: #acd7f5;
 }
 
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #ffe895;
+  border-color: #acd7f5;
 }
 
 .table-hover .table-primary:hover {
-  background-color: #ffeead;
+  background-color: #acd7f5;
 }
 
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: #ffeead;
+  background-color: #acd7f5;
 }
 
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-  background-color: #fcfcfc;
+  background-color: #e0edf7;
 }
 
 .table-secondary th,
 .table-secondary td,
 .table-secondary thead th,
 .table-secondary tbody + tbody {
-  border-color: #fafafa;
+  border-color: #e0edf7;
 }
 
 .table-hover .table-secondary:hover {
@@ -2664,50 +2664,50 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #FFD333;
-  border-color: #FFD333;
+  color: #6781db;
+  border-color: #6781db;
 }
 
 .btn-outline-primary:hover {
-  color: #212529;
-  background-color: #FFD333;
-  border-color: #FFD333;
+  color: #e0edf7;
+  background-color: #6781db;
+  border-color: #6781db;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 211, 51, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(98, 148, 215, 0.5);
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #FFD333;
+  color: #6781db;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
-  color: #212529;
-  background-color: #FFD333;
-  border-color: #FFD333;
+  color: #e0edf7;
+  background-color: #6781db;
+  border-color: #6781db;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 211, 51, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(98, 148, 215, 0.5);
 }
 
 .btn-outline-secondary {
-  color: #303559;
-  border-color: #303559;
+  color: #6781db;
+  border-color: #6781db;
 }
 
 .btn-outline-secondary:hover {
-  color: #212529;
-  background-color: #303559;
-  border-color: #303559;
+  color: #e0edf7;
+  background-color: #6781db;
+  border-color: #6781db;
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(245, 245, 245, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(98, 148, 215, 0.5);
 }
 
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
@@ -2717,9 +2717,9 @@ fieldset:disabled a.btn {
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-secondary.dropdown-toggle {
-  color: #212529;
-  background-color: #303559;
-  border-color: #303559;
+  color: #e0edf7;
+  background-color: #6781db;
+  border-color: #6781db;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
@@ -2921,12 +2921,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #FFD333;
+  color: #E0edf7;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #e6b400;
+  color: #E0edf7;
   text-decoration: underline;
 }
 
@@ -4586,16 +4586,16 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #FFD333;
-  background-color: #fff;
+  color: #6294d7;
+  background-color: #E0edf7;
   border: 1px solid #E0edf7;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #e6b400;
+  color: #728ff3;
   text-decoration: none;
-  background-color: #e9ecef;
+  background-color: #E0edf7;
   border-color: #E0edf7;
 }
 
@@ -4611,16 +4611,16 @@ input[type="button"].btn-block {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #fff;
-  background-color: #FFD333;
-  border-color: #FFD333;
+  color: #E0edf7;
+  background-color: #6294d7;
+  border-color: #6294d7;
 }
 
 .page-item.disabled .page-link {
-  color: #e0edf7;
+  color: #bec4dd;
   pointer-events: none;
   cursor: auto;
-  background-color: #fff;
+  background-color: #E0edf7;
   border-color: #E0edf7;
 }
 
@@ -9683,7 +9683,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .product-item .btn:hover {
-  color: #FFD333 !important;
+  color: #e0edf7 !important;
 }
 
 .table.table-borderless thead tr,
