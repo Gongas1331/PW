@@ -3,17 +3,17 @@
 
 <head>
     <meta charset="utf-8">
-    <title>PC Electric - Online Shop</title>
+    <title>MultiShop - Online Shop Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="../img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -23,13 +23,10 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-
-
-
 <!-- Navbar Start -->
 <div class="container-fluid bg-dark mb-30">
     <div class="row px-xl-5" style="height: auto; padding-top: 1%; padding-bottom: 1%;">
@@ -83,7 +80,7 @@
             </nav>
         </div>
         <div class="col-lg-auto" style="height: 100%;">
-            <a href="../index.html" class="text-decoration-none">
+            <a href="index.html" class="text-decoration-none">
                 <span class="h1 text-uppercase text-primary bg-dark px-2">PC</span>
                 <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">Electric</span>
             </a>
@@ -117,32 +114,51 @@
         </div>
     </div>
 <!-- Navbar End -->
+
+    <!-- Breadcrumb Start -->
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-12">
+                <nav class="breadcrumb bg-dark mb-30">
+                    <a class="breadcrumb-item text-light" href="index.html">Home</a>
+                    <a class="breadcrumb-item text-light" href="cart.html">Shopping Cart</a>
+                    <a class="breadcrumb-item text-light" href="checkout.html">Checkout</a>
+                    <span class="breadcrumb-item active">Order Confirmation</span>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+
+    <!-- Order Confirmation Start -->
+    <div class="container-fluid" style="text-align: center;">
+        <h1>Thank You For Your Purchase</h1>
+        <h3>Your order has been placed successfully</h3>
+        <a class="btn btn-primary" href="index.html">Continue Shopping</a>
+    </div>
     
 
-
-   
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-secondary mt-5 pt-5">
         <div class="row px-xl-5 pt-5">
             <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
                 <h5 class="text-secondary text-uppercase mb-4">Get In Touch</h5>
-                <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</p>
-                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
-                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
-                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                <p class="mb-4">We are a small team of 5 to-be engineers who came together to make a decent enough website to get approved at web programming</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>4 Travessa do Fala Só, Lisboa, Portugal</p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>pcelectric.deti@ua.pt</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+351 969 420 420</p>
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="row">
                     <div class="col-md-6 mb-5">
                         <h5 class="text-secondary text-uppercase mb-4">My Account</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
-                            <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
-                            <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
-                            <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
-                            <a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <a class="text-secondary mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-secondary mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Browse All Products</a>
+                            <a class="text-secondary mb-2" href="cart.html"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
+                            <a class="text-secondary mb-2" href="checkout.html"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
                         </div>
                     </div>
                     <div class="col-md-6 mb-5">
@@ -178,15 +194,15 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="../lib/easing/easing.min.js"></script>
-    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Contact Javascript File -->
-    <script src="../mail/jqBootstrapValidation.min.js"></script>
-    <script src="../mail/contact.js"></script>
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="../js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
