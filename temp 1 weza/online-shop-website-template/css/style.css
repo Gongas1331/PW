@@ -5038,12 +5038,13 @@ a.badge-dark:focus, a.badge-dark.focus {
   position: relative;
   display: block;
   padding: 0.75rem 1.25rem;
-  background-color: #728ff3;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #5e68ae;
+  color: #e0edf7;
+  border: 1px solid rgba(224, 237, 247, 0.25);
 }
 
 .list-group-item.disabled, .list-group-item:disabled {
-  color: #e0edf7;
+  color: #1b1c30;
   pointer-events: none;
   background-color: #fff;
 }
