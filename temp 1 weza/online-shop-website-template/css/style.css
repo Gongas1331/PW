@@ -3506,9 +3506,9 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:checked ~ .custom-control-label::before {
-  color: #fff;
-  border-color: #FFD333;
-  background-color: #FFD333;
+  color: #e0edf7;
+  border-color: #6294d7;
+  background-color: #6294d7;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -3548,8 +3548,8 @@ input[type="button"].btn-block {
   height: 1rem;
   pointer-events: none;
   content: "";
-  background-color: #fff;
-  border: #adb5bd solid 1px;
+  background-color: #e0edf7;
+  border: #e0edf7 solid 1px;
 }
 
 .custom-control-label::after {
@@ -3568,8 +3568,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #FFD333;
-  background-color: #FFD333;
+  border-color: #6294d7;
+  background-color: #6294d7;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -3577,11 +3577,11 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(255, 211, 51, 0.5);
+  background-color: rgba(98, 148, 215, 0.5);
 }
 
 .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
-  background-color: rgba(255, 211, 51, 0.5);
+  background-color: rgba(98, 148, 215, 0.5);
 }
 
 .custom-radio .custom-control-label::before {
@@ -3593,7 +3593,7 @@ input[type="button"].btn-block {
 }
 
 .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(255, 211, 51, 0.5);
+  background-color: rgba(98, 148, 215, 0.5);
 }
 
 .custom-switch {

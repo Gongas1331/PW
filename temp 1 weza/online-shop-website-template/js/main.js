@@ -105,12 +105,5 @@
             $(this).parent().parent().remove() ;
     });
 
-    //Product Total Price
-    $('.quantity input').on('change', function () {
-        var price = $(this).parent().parent().parent().find('.price').text();
-        var total = $(this).val() * price;
-        $(this).parent().parent().parent().find('.total').text(total);
-    });
-    
 })(jQuery);
 
