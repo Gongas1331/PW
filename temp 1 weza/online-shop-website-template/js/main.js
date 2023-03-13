@@ -94,10 +94,22 @@
             if (oldValue > 0) {
                 var newVal = parseFloat(oldValue) - 1;
             } else {
-                newVal = 0;
+                $(this).parent().parent().parent().parent().remove() ;
             }
         }
         button.parent().parent().find('input').val(newVal);
+    });
+
+    //Remove Product
+    $('.btn-danger').on('click', function () {
+            $(this).parent().parent().remove() ;
+    });
+
+    //Product Total Price
+    $('.quantity input').on('change', function () {
+        var price = $(this).parent().parent().parent().find('.price').text();
+        var total = $(this).val() * price;
+        $(this).parent().parent().parent().find('.total').text(total);
     });
     
 })(jQuery);
